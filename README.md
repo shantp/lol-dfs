@@ -1,11 +1,3 @@
-# starter-app
+# lol-dfs
 
-Starter app for React
-* webpack
-* babel
-* redux
-* react-transform
-
-```
-npm start
-```
+(╯°□°）╯︵ ┻━┻
