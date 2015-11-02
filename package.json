@@ -6,7 +6,7 @@
   "license": "",
   "scripts": {
     "start": "node server.js",
-    "convert-data": "node data/domp-json.js"
+    "score": "node data/scoring.js"
   },
   "repository": {
     "type": "git",
