@@ -38,6 +38,16 @@ for day in dates:
             comboSalaries.append(item)
 
 for player in players:
+    score = 0
+    score += player['kills'] * 3
+    score -= player['deaths']
+    score += player['assists'] * 2
+    score += player['creeps'] * .02
+    if player['kills'] >= 10 or player['assists'] >= 10:
+        score += 2
+    if 'gnp' in player.keys():
+        score += player['gnp']
+    player[unicode('score')] = score
     pname = player['name'].lower()
     date = player['date']
     if 'game' in player.keys():
